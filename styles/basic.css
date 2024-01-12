@@ -1,0 +1,60 @@
+body{
+    margin: 150px 20px 200px 50px;
+    background-color: #FAFAF9;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr); 
+    grid-template-rows: repeat(2, 1fr);
+
+}
+
+.reviewer-container{
+    border: 2px solid tomato;
+    display: grid;
+    grid-column: 1 / span 6;
+    grid-row: 1 / span 2;
+}
+
+.meta-container{
+    border: 2px solid green;
+    grid-row: 2 / span 1;
+    grid-column: 7 / span 3;
+    width: auto;
+    background-color: #F8F8F7;
+}
+
+.google-container{
+    border: 2px solid yellow;
+    grid-column: 10 / span 3;
+    width: auto;
+    background-color: #F8F8F7;
+}
+
+.star{
+    background-color: #F5C044;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: grid;  
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.pic{
+    display: flex;
+}
+
+.meta-img{
+    display: flex;
+    /* width: 100%; */
+}
+.meta-img > img{
+    width: 50%;
+}
+
+.google-img{
+    display: flex;
+}
+.google-img > img{
+    width: 50%;
+}
